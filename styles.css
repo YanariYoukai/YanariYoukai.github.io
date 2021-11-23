@@ -1,0 +1,95 @@
+/*font-family: lato;*/
+* {
+  padding: 0;
+  margin: 0;
+  }
+
+.navbar {
+  background-color: #333333;
+  height: 75px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  }
+
+.navbar img {
+  height: 70%;
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  }
+
+.button {
+  font-size: 24px;
+  font-family: "consolas";
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin: 5% 20px;
+  }
+
+.navbar_links {
+  float: right;
+  display: flex;
+  }
+
+a {
+  color: #ff0099;
+}
+
+body {
+  background-image: url("assets/background.png");
+  }
+
+.introduction {
+  padding: 0 10%;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: "Lato";
+  font-weight: bolder;
+  margin-top: 125px;
+}
+
+h2 {
+  color: #ff0099;
+  font-size: 40px;
+  font-family: "consolas";
+  margin: 40px 0px;
+}
+
+p {
+  font-size: 28px;
+  font-family: "courier";
+  margin: 20px 0px;
+  line-height: 1.4;
+}
+
+#div_line {
+  text-align: center;
+  margin: 90px 0px;
+}
+
+#wiki {
+  padding: 0 10%;
+}
+
+h3 {
+  font-size: 56px;
+  text-align: center;
+  font-family: "consolas";
+  margin: 50px 0;
+}
+
+#wiki dt {
+  font-size: 42px;
+  font-family: "consolas";
+  margin: 30px 0;
+}
+
+#wiki dd {
+  font-size: 24px;
+  font-family: "courier";
+  line-height: 1.6;
+  margin: 10px 0;
+}
